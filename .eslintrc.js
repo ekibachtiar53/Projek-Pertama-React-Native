@@ -3,10 +3,10 @@
     "browser": true,
     "es6": true
   },
-  "extends": {
+  "extends": [
     "plugin:react/recommended",
     "airbnb"
-  },
+  ],
   "globals":{
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
@@ -18,10 +18,11 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": {
+  "plugins": [
     "react"
-  },
+  ],
   "rules": {
     "no-console": "off"
   }
 }
+	
